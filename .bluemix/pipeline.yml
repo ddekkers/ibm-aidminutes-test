@@ -7,7 +7,7 @@ stages:
   triggers:
   - type: commit
   jobs:
-  - name: Build
+  - name: Build test
     type: builder
     artifact_dir: ''
   - name: Post Build
